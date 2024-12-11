@@ -1,15 +1,15 @@
-if SHIELD_SWEEP_LEFT
+if SHIELD_SPLITKB_AURORA_SWEEP_LEFT
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
-    default "sweep"
+    default "splitkb_aurora_sweep"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_SWEEP_LEFT || SHIELD_SWEEP_RIGHT
+if SHIELD_SPLITKB_AURORA_SWEEP_LEFT || SHIELD_SPLITKB_AURORA_SWEEP_RIGHT
 
 config ZMK_SPLIT
     default y
