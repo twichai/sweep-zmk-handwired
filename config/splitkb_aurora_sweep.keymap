@@ -5,6 +5,7 @@
  */
 
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 &mt {
@@ -61,10 +62,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans                                                    &trans  &trans
+&bt BT_SEL 1    &bt BT_SEL 2  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans          &trans        &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR_ALL  &trans        &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans          &trans                                                          &trans  &trans
             >;
         };
     };
