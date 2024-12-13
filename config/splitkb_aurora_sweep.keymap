@@ -19,7 +19,7 @@
 
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <1 10>;
+            key-positions = <22 23>;
             bindings = <&kp ESC>;
         };
 
@@ -36,7 +36,7 @@
 
         delete {
             bindings = <&kp DEL>;
-            key-positions = <8 19>;
+            key-positions = <8 9>;
         };
     };
 
