@@ -19,8 +19,9 @@
 
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <22 23>;
+            key-positions = <11 12 13>;
             bindings = <&kp ESC>;
+            layers = <0 1 2>;
         };
 
         combo_tab {
@@ -64,7 +65,7 @@
         right_layer {
             bindings = <
 &kp F1    &kp F2    &kp F3     &kp F4     &kp F5      &kp F6    &kp F7    &kp F8        &kp F9     &kp F10
-&kp LALT  &kp LGUI  &kp LCTRL  &kp LSHFT  &kp SEMI    &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp RIGHT
+&kp LALT  &kp LGUI  &kp LCTRL  &kp LSHFT  &kp SEMI    &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp RA(TAB)
 &none     &none     &trans     &trans     &trans      &trans    &trans    &trans        &trans     &trans
 &trans    &trans                                                                        &mo 3      &trans
             >;
