@@ -55,10 +55,10 @@
 
         left_layer {
             bindings = <
-&kp N1          &kp N2            &kp N3          &kp N4                &kp N5       &kp N6     &kp N7                 &kp N8           &kp N9             &kp N0
-&kp SQT         &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp MINUS    &kp PLUS   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp EXCLAMATION
-&kp LEFT_SHIFT  &kp BACKSPACE     &kp EQUAL       &kp AMPERSAND         &kp GRAVE    &kp MINUS  &kp PIPE               &trans           &trans             &mt RIGHT_SHIFT BACKSLASH
-&trans          &mo 2                                                                                                                   &trans             &trans
+&kp N1             &kp N2            &kp N3          &kp N4                &kp N5       &kp N6     &kp N7                 &kp N8           &kp N9             &kp N0
+&kp SQT            &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp MINUS    &kp PLUS   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp EXCLAMATION
+&mt LEFT_SHIFT N0  &kp BACKSPACE     &kp EQUAL       &kp AMPERSAND         &kp GRAVE    &kp MINUS  &kp PIPE               &trans           &trans             &mt RIGHT_SHIFT BACKSLASH
+&trans             &mo 2                                                                                                                   &trans             &trans
             >;
         };
 
